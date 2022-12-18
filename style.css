@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: white;
+  display: flex;
+}
+
+h3 {
+    color: white;
+}
+
+body {
+  background-color: rgb(49, 48, 48);
+}
+.imagelogo {
+  width: 200px;
+}
+
+header {
+  background-color: rgb(49, 48, 48);
+  display: flex;
+  height: 100px;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+}
+
+.nav-link {
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration-line: underline;
+  text-decoration-color: rgb(190, 149, 61);
+}
+
+main {
+  text-align: center;
+}
+section.home {
+  background: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  text-align: center;
+  padding-top: 10%;
+}
+section h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 42px;
+  color: white;
+}
+
+section h2 {
+  color: rgb(190, 149, 61);
+  font-family: monospace;
+  font-size: 25px;
+}
+
+section h3 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.recuadrocontexto {
+  width: 300px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  display: inline-block
+  padding-top: 3%;
+}
+
+
+.concepto {
+  background-image: url(https://st.depositphotos.com/1579821/1338/i/600/depositphotos_13389414-stock-photo-bright-luminous-white-hydrangea-flowers.jpg);
+  background-image: no-repeat;
+  background-size: cover;
+  height: 400px;
+  padding-top: 20px;
+}
